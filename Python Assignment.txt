@@ -12,6 +12,6 @@ def func1():
     if z == '-':
         return print('Subtraction Result= ',round((x-y),2))
     if z == '*':
-        return print('Multiplication Resulr= ',round((x*y),2))
+        return print('Multiplication Result= ',round((x*y),2))
     if z == '/':
         return print('Division Result= ',round((x/y),2))
