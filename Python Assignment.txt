@@ -1,0 +1,17 @@
+def func1():
+    x = input("Plz Enter The Firts Value= ")
+    z = input('Plz Choose What you Want To ADD Enter "+" '
+              'OR SUB. Enter "-" '
+              'OR MULT. Enter "*" '
+              'OR DEV. Enter "/" ')
+    y = input("Plz Enter The Second Value= ")
+    x = float(x)
+    y = float(y)
+    if z == '+':
+        return print('Summation Result= ',round((x+y),2))
+    if z == '-':
+        return print('Subtraction Result= ',round((x-y),2))
+    if z == '*':
+        return print('Multiplication Resulr= ',round((x*y),2))
+    if z == '/':
+        return print('Division Result= ',round((x/y),2))
